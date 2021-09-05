@@ -2,6 +2,7 @@
 """
 @author: rajan
 """
+import numpy as np
 
 def gaussian(x, s, mu, sigma):
     """

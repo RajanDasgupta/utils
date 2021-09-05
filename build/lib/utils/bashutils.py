@@ -32,5 +32,5 @@ def unixify(script):
     """
     """
     pattern = r'(?P<drive_letter>([A-Z]:))'
-    rep = lambda m: r'/mnt/' + m.group('drive_letter').lower()
+    rep = lambda m: '/mnt/' + m.group('drive_letter').lower()
     return script.str.replace(pattern, rep, regex=True).str.replace(':','').str.replace('\\', '/')

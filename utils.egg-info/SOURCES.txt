@@ -2,6 +2,7 @@ README.md
 setup.py
 utils/__init__.py
 utils/bashutils.py
+utils/loadutils.py
 utils/mathutils.py
 utils/mungutils.py
 utils/pathutils.py

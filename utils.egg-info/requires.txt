@@ -1,2 +1,4 @@
 easygui
 numpy
+pandas
+scipy
